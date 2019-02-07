@@ -24,9 +24,9 @@ def throw_dice(n):
     make_plot(x_vals, y_vals, 'The Probability of Getting 3 Exactly Twice', 'number of roll die', 'probability')
     pylab.xlim(0, n)
     pylab.ylim(0.0, 0.35)
-    pylab.savefig('../images/nchoose2')
+    pylab.savefig('saikoro/images/nchoose2')
 
 
 pylab.figure(figsize=(15,10))
-seaborn.set_style('darkgrid')
+seaborn.set_style('whitegrid')
 throw_dice(50)
